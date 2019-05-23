@@ -1,0 +1,42 @@
+body {
+		background-color: black;
+	}
+h1, h2, h3 {
+		color: white;
+		text-align: center;
+	}
+a {
+		text-decoration: none;
+		color: white;
+		text-align: center;
+	}
+a.xd {
+		margin-left: 565px;
+	}
+form {
+		text-align: center;
+	}
+a:hover{
+		color: blue;
+		text-decoration: underline;
+	}
+p.xd{
+		color: red;
+		margin-left: 80px;
+	}
+td {
+	color: white;
+}
+table{
+	margin-left: 485px;
+}
+p, span{
+	color: white;
+	text-align: center;
+}
+div.g-recaptcha {
+	margin-left: 520px;
+}
+input.regulamin {
+	color: white;
+}

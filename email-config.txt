@@ -1,0 +1,21 @@
+w php.ini
+(Ctrl + F) ";extension=php_openssl.dll" -> usuñ œrednik
+pod [mail function]
+od "For Win32 only." do ";sendmail_path=" zmieñ na:
+SMTP = smtp.gmail.com
+smtp_port = 587
+sendmail_from = (email)
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe" -t"
+
+w plik sendmail.ini
+usuñ wszystko i wpisz: 
+
+[sendmail]
+
+smtp_server = smtp.gmail.com
+smtp_port = 587
+error_logfile = error.log
+debug_logfile = debug.log
+auth_username = (email)
+auth_password = (haslo)
+force_sender = (email)
